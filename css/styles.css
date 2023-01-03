@@ -1,0 +1,196 @@
+body{
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+#title{
+    color: white;
+    background-color: #ff4c68;
+}
+h1, h2, h3, h4{
+    font-family: 'Montserrat-Black', sans-serif;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ##########Navigation Bar ##########*/
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* ########## Main Page ##########*/
+ 
+/* Headings */
+
+.big-Heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.7rem; 
+    line-height: 1.5;
+    font-weight: 900;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/* ########## Feautre page ##########*/
+
+
+#features{
+    padding: 15% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+#features h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+#features p{
+    color: #8f8f8f;
+}
+.box-1{
+    text-align: center;
+}
+.box-2{
+    
+    text-align: center;
+
+}.box-3{
+    text-align: center;
+
+}
+#features .fa-solid{
+    color: #ef8172;
+    font-size: 100px;
+    margin-bottom: 1.2rem;
+}
+#features .fa-solid:hover{
+    color: #ff4c68;
+}
+
+
+/* ########## Testimonial page ##########*/
+
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* ########## Pricing page ##########*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* ########## Call to Action page ##########*/
+
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 30rem;
+    padding-top: 5%;
+}
+#cta .inner-cta h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+    margin-top: 3rem;
+    font-size: 50px;
+}
+.inner-cta{
+    width: 80%;
+    margin: 0 auto;
+}
+.download-btn-cta{
+    margin-top: 3rem;
+}
+
+
+/* ########## Footer Page ##########*/
+
+
+#footer{
+    width: 100%;
+    height: 15rem;
+    background-color: #ffff;
+    text-align: center;
+    padding: 5% 10%;
+}
+#footer i{
+    padding: 2% 1%;
+}
+#footer a{
+    color: #121111;
+    font-size: 25px;
+}
+#footer a:hover{
+    color: #ff4c68;
+    font-size: 30px;
+}
